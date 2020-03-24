@@ -1,32 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Resume</title>
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap&subset=cyrillic" rel="stylesheet">
 </head>
 <body>
     <!--main conteiner-->
-    <div>
-    <aside>
-        <img src="./img/photo.jpg" alt="my photo" width="420" height="280" >
-
-        <div>
+    <div class="wrapper">
+    <aside class="sidebar">
+        <img class="myphoto" src="./img/photo.jpg" alt="my photo" width="370" height="300" >
+    
+        <div class="contactconteiner">
             <!--contact conteiner-->
-            <h3>Contacts  </h3>
-             <div>
-                C:  <a href="tel:380951138598">+38 095 113 85 98</a>
+            <h3 class="contactshrift">Contacts </h3>
+             <div >
+               <span class="contactlinktype">C:</span>   <a class="contactlink" href="tel:380951138598">+38 095 113 85 98</a>
              </div>   
                 <div>
-                    E:  <a href="mailto:chornyiav@gmail.com"> chornyiav@gmail.com</a>
+                    <span class="contactlinktype">E:</span>   <a class="contactlink" href="mailto:chornyiav@gmail.com"> chornyiav@gmail.com</a>
                 </div>
- </div>
+        </div>
 <!--tech skills conteiner-->
-        <div>
-            <h3>Tech Skills</h3>
-           <ul>
+        <div class="contactconteiner">
+            <h3 class="contactshrift">Tech Skills</h3>
+           <ul class="spisokkonteiner">
           <li>  HTML5</li>
           <li> CSS3 </li>
           <li>  GIT</li>
@@ -37,9 +36,9 @@
             </ul>
         </div>
         <!--soft skills conteiner-->
-        <div>
-            <h3>Soft skills</h3>
-           <ul>
+        <div class="contactconteiner">
+            <h3 class="contactshrift">Soft skills</h3>
+           <ul class="spisokkonteiner">
           <li>  Scrum</li>
           <li> Agile </li>
           <li>  GTD</li>
@@ -48,13 +47,14 @@
             </ul>
         </div>
     </aside>
+
 <!--about my conteiner-->
-<div>
+<div class="about-my-conteiner">
  <!--about my info-->
  <div>
    <h2> Front-End Developer</h2>
    <h1> Anton Chornyi</h1>
-   <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+   <p  > Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
 </div>   
 <!--project conteiner-->
 <div>
@@ -127,6 +127,6 @@
 </div>
 
 </div>
-
+    </div>
 </body>
 </html>
