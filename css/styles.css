@@ -9,7 +9,7 @@ body
   padding: 20px; }
 .wrapper{background:#fff;
     margin: 0 auto;
-max-width: 1200px ;
+width: 1200px ;
 display: flex;
 font-family: 'Montserrat', sans-serif;
 margin: 0 auto;
