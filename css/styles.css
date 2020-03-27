@@ -9,9 +9,15 @@ body
   padding: 20px; }
 .wrapper{background:#fff;
     margin: 0 auto;
-width: 1200px ;
+max-width: 1200px ;
 display: flex;
 font-family: 'Montserrat', sans-serif;
+margin: 0 auto;
+box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+padding-left: 20px;
+padding-right: 20px;
+padding-bottom: 40px;
+padding-top: 40px;
 }
 
 
@@ -27,6 +33,7 @@ padding-top: 40px;
     padding-bottom:110px ;
     padding-top:110px ;
     font-family: Montserrat;
+   
 }
 .contactconteiner {
     padding-top: 60;
@@ -71,22 +78,16 @@ line-height: 24px;}
   font-weight: 700;
   line-height: 89px;
 }
-.nameone{
-/* font-size: 14px;
-font-weight: 400;
-line-height: 24px; */
+ 
 
-height: 107px;}
-.block{
-  margin: 20px;
-
-}
+  
+ 
 .prod{
   font-size: 22px;
 font-weight: 700;
 line-height: 24px;
 margin: 15px;
-padding-top: 25px;
+padding-top: 10px;
 }
 .link-prodject{
   color: #595959;
@@ -118,4 +119,33 @@ padding-top: 15px;
 }
 .profi{
   color: #ff7113;
+}
+.palka{
+  color: #1e2939;
+}
+.pulka-li{
+  /* width: 254px;
+height: 11px;
+opacity: -1; */
+color: #595959;
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+color: #595959;
+}
+.blok{
+  padding-bottom: 20px;
+  color: #a8a8a8;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+
+}
+.ul-top{
+  padding-top: 10px;
+}
+.block{
+  padding-bottom: 20px;
 }
