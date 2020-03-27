@@ -63,7 +63,7 @@ margin-right: 10px;
 }
 .spisokkonteiner{
 padding: 20px;
-color: #9da2a9;
+color: #ff6b08;
 }
 
 
@@ -86,8 +86,9 @@ line-height: 24px;}
   font-size: 22px;
 font-weight: 700;
 line-height: 24px;
-margin: 15px;
-padding-top: 10px;
+/* margin: 15px; */
+padding-top: 15px;
+padding-bottom: 10px;
 }
 .link-prodject{
   color: #595959;
@@ -118,8 +119,8 @@ padding-bottom: 10px;
 padding-top: 15px;
 }
 .profi{
-  color: #ff7113;
-}
+  color: #ff7113;}
+ 
 .palka{
   color: #1e2939;
 }
@@ -149,3 +150,15 @@ color: #595959;
 .block{
   padding-bottom: 20px;
 }
+.nameone{
+  width: 415px;
+  color: #595959;
+}
+.riz{
+  color:#858b94;
+}
+.div{
+  padding-bottom: 20px;
+}
+a { 
+  text-decoration: none;}
