@@ -1,12 +1,12 @@
 *{
-    padding: 0px;
-  margin: 0px;
+   
   box-sizing:border-box;
   
 }
 body
 { background: #f5f7fa;
-  padding: 20px; }
+  padding: 20px;
+ } 
 .wrapper{background:#fff;
     margin: 0 auto;
 width: 1200px ;
@@ -159,6 +159,8 @@ color: #595959;
 }
 .div{
   padding-bottom: 20px;
+  width: 700px;
 }
 a { 
   text-decoration: none;}
+  
